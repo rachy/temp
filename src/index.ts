@@ -9,7 +9,7 @@ app.use('/api', images);
 
 // check for port to avoid allready in use error testing
 if (process.env.NODE_ENV !== 'test') {
-  app.listen(port, () => console.log(`Listening on port ${port}`));
+  app.listen(port, () => console.log(`Listening on port ${port}!`));
 }
 
 export default app;
